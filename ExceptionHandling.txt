@@ -1,0 +1,105 @@
+Object Oriented Programming
+
+1. class 
+
+2. Object -- An instance of a class
+
+class is a generic and object is specific
+
+
+class <classname>:
+	#list of methods
+
+
+class Employee:
+
+	def __init__(selfn,name):
+		self.name=name
+		
+	def setData(self):
+		
+		print(self.name)
+
+
+	def workingStyle():
+
+
+	def calSalary():
+
+	
+emp = Employee()  // runtime error
+emp.setData();
+
+
+
+Inheritance:
+-----------
+It is the process of aquring the methods/variables from one class to another class
+
+The class which is giving properties is called Parent / Base class
+the class which is acquriing the properties is called Child / Derived class
+
+Inheritance is used for code resuablility
+
+
+class Box2D:
+	def __init__(self,length):
+		self.breadth=2;
+		length=length;
+		print(length)
+
+
+	def calArea(self):
+		print("The surface area is ", length*breadth);
+
+box = Box2D(10);
+
+	
+class Box3D:
+	def  __init__(self):
+		self.length=1
+		self.breadth=2;
+		self.height=3;
+	
+	def calArea(self):
+		print("The surface area is ", length*breadth);
+
+
+	def calVolume(self):
+		print("The volume is :", self.length*self.breadth*self.height)
+
+
+
+
+class Box3D(Box2D):
+
+	def  __init__(self):
+		self.height=3;
+	
+	def calVolume(self):
+		print("The volume is :", self.length*self.breadth*self.height)
+	
+Runtime Errors
+--------------
+
+c = a / b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
