@@ -14,8 +14,10 @@ def read_csv(file_name):
     return data
 
 # Example usage:
-csv_file_name = 'data.csv'
-csv_data = read_csv(csv_file_name)
-print(f"Contents of '{csv_file_name}':\n")
-for row in csv_data:
-    print(row)
+
+if __name__ == "__main__":
+    csv_file_name = 'data.csv'
+    csv_data = read_csv(csv_file_name)
+    print(f"Contents of '{csv_file_name}':\n")
+    for row in csv_data:
+        print(row)
